@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+button{
+    background-color: rgb(211, 145, 59);
+    color: rgb(225, 225, 119);
+    font-size: 39px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+  }
+
+  .calculator{
+    height: 600px;
+    width: 400px;
+   border: 5px solid red;
+  }
+  .btn{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
